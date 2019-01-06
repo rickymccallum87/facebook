@@ -44,6 +44,15 @@
   	transform: translate(-50%, -50%);
 }
 
-.butt {
+footer ul {
+    list-style: none;
+}
 
+footer ul li {
+    display: inline;
+}
+
+#more-languages {
+    position: relative;
+    top: 10px;
 }

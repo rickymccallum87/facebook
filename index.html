@@ -1,20 +1,32 @@
 <html>
 <head>
     <title>Facebook - Log In or Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
     <meta charset="utf-8">
 </head>
 <body>
-    <header>
-        <img src="facebook-logo.png" alt="Facebook">
-        <form action="">
+
+    <header class="form-inline">
+        <div class="logo">
+        <img src="img/logo.png" class="size_logo" alt="Facebook">
+        </div>
+        <div class="login">
+        <form  action="">
+            <div class="col">
             <label for="email">Email or Phone</label>
-            <input type="email" name="" id="">
+                <input type="email" name="" id="">
+            </div>
+            <div class="col">
             <label for="password">Password</label>
-            <input type="password" name="" id="">
-            <input type="submit" value="Log In">
+                <input type="password" name="" id="">
+                 <a class="forget_account_color" href="#">Forgot account?</a>
+            </div>
+                <input class="button" type="submit" value="Log In">
         </form>
-        <a href="#">Forgot account?</a>
+       
+        </div>
     </header>
+
     <main>
         <div id="col1">
             <h1>Connect with friends and the world around you on Facebook.</h1>

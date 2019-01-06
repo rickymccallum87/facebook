@@ -5,3 +5,8 @@ footer ul {
 footer ul li {
     display: inline;
 }
+
+#more-languages {
+    position: relative;
+    top: 10px;
+}

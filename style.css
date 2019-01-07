@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	font-family: Arial, Helvetica, sans-serif
 }
 
 
@@ -96,4 +97,85 @@ footer ul li {
 #more-languages {
     position: relative;
     top: 10px;
+}
+
+/* sign up */
+
+.heading-2{
+	font-size: 19px;
+	font-family: 'Freight Sans', Helvetica, Arial, sans-serif !important;
+	font-weight: normal;
+	color: #333
+}
+.form-input {
+	height: 50px;
+	width: 172px;
+	margin: 5px 5px 5px 5px;
+}
+
+::placeholder {
+	font-size: 20px;
+}
+
+.col-sign_up {
+	display: inline-flex;
+	flex-direction: column;
+	
+}
+
+.length_email_pass{
+	width: 350px;
+	height: 40px;
+}
+
+.size_name {
+	height: 40px;
+}
+
+.margin {
+	margin: 10px 5px 5px 5px;
+}
+
+.size-data {
+	width: 400px;
+}
+
+.font-data {
+	font-size: 11px;
+	color: #777;
+
+}
+a:hover {
+	text-decoration: underline;
+}
+.deco-none {
+	text-decoration: none;
+	font-size: 11px;
+	color: #365899
+}
+
+.row {
+	display: flex;
+}
+
+.button-sign_up {
+	font-size: 19px;
+	color: white;
+	width: 200px;
+	height: 50px;
+	background: linear-gradient(#67ae55, #578843);
+	background-color: #69a74e;
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.font-3 {
+	text-decoration: none;
+	color: #365899;
+	font-size: 13px;
+}
+
+.font-4 {
+	font-size: 13px;
 }

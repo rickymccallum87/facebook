@@ -44,6 +44,40 @@
   	transform: translate(-50%, -50%);
 }
 
+
+/* Main */
+
+main {
+	background-color: #edf0f5;
+	display: flex;
+}
+
+#connect {
+	flex: 60%;
+	padding: 2em;
+}
+
+#sign-up {
+	flex: 40%;
+	padding: 2em;
+}
+
+#connect ul {
+	list-style: none;
+}
+
+#connect li {
+	display: flex;
+	align-items: center;
+}
+
+#connect img {
+	padding: 15px 25px;
+}
+
+
+/* Footer */
+
 footer ul {
     list-style: none;
 }

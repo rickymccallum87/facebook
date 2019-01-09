@@ -177,15 +177,42 @@ hr {
 
 /* Footer */
 
+footer {
+	font-size: 12px;
+}
+
+footer a {
+	color: #365899;
+}
+
 footer ul {
-    list-style: none;
+	list-style: none;
+	padding-left: 0;
 }
 
 footer ul li {
     display: inline;
 }
 
+#languages li {
+	padding: 0 5px;
+}
+
+#current-language {
+	color: gray;
+}
+
 #more-languages {
     position: relative;
     top: 10px;
+}
+
+#sitemap li {
+	margin: 0 9px;
+	line-height: 1.5;
+}
+
+#copyright {
+	font-size: 10px;
+	color: gray;
 }

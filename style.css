@@ -58,6 +58,8 @@ main {
 	display: flex;
 }
 
+/* Connect */
+
 #connect {
 	flex: 60%;
 	/* padding: 2em; */
@@ -81,23 +83,7 @@ main {
 	padding: 15px 25px;
 }
 
-
-/* Footer */
-
-footer ul {
-    list-style: none;
-}
-
-footer ul li {
-    display: inline;
-}
-
-#more-languages {
-    position: relative;
-    top: 10px;
-}
-
-/* sign up */
+/* Sign Up */
 
 .heading-2{
 	font-size: 19px;
@@ -176,4 +162,20 @@ a:hover {
 
 .font-4 {
 	font-size: 13px;
+}
+
+
+/* Footer */
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+}
+
+#more-languages {
+    position: relative;
+    top: 10px;
 }

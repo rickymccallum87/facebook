@@ -11,30 +11,32 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="form-inline">
 
-                    <div class="logo">
-                        <img src="img/logo.png" class="size_logo" alt="Facebook">
-                    </div>
+                <div id="logo">
+                    <img src="img/logo.png" class="size_logo" alt="Facebook">
+                </div>
 
-                    <div class="login">
-                        <form action="">
+                <div id="login">
 
-                            <div class="col">
+                    <form action="">
+                        <div class="row">
+                            <div>
                                 <label for="email">Email or Phone</label>
-                                <input type="email" name="" id="">
+                                <input type="email" name="" class="login-field">
                             </div>
 
-                            <div class="col">
+                            <div>
                                 <label for="password">Password</label>
-                                <input type="password" name="" id="">
+                                <input type="password" name="" class="login-field">
                                 <a class="forget_account_color" href="#">Forgot account?</a>
                             </div>
 
-                            <input class="button" type="submit" value="Log In">
-                        </form>
-                    </div>
+                            <input id="login-button" type="submit" value="Log In">
+                        </div>
+                    </form>
+
                 </div>
+
             </div>
         </div>
     </header>
@@ -62,7 +64,7 @@
                 </div>
 
                 <div id="sign-up">
-                    <h1>Create a new account</h1>
+                    <h1>Sign Up</h1>
                     <h2 class="heading-2">It's free and always will be.</h2>
                     <form action="">
                         <input type="text" name="first" id="" placeholder="First name" class="form-input size_name">

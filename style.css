@@ -12,30 +12,42 @@ body {
 	display: flex;
 }
 
-
 /* Header */
 
 header {
 	background-color: #3b5998;	
+	height: 82px;
 	border-bottom: 1px solid #133783;
+	font-size: 12px;
 }
 
-.login {
+#logo {
+	flex: 65%;
+	align-self: flex-end;
+	margin: 0 0 20px 5px;
+}
+
+#login {
+	flex: 35%;
 	color: white;
+	padding-top: 15px;
 }
 
-.col {
-	width: 30%;
+.login-field {
+	width: 142px;
+	border: 1px solid #1d2129;
+	margin: 5px 15px 5px 0;
 }
 
 .forget_account_color {
 	color: #8ca5ba
 }
 
-.button {
+#login-button {
+	align-self: center;
 	background-color: #29487d;
-	border-color: #29487d;
 	color: white;
+	border-color: #29487d;
 }
 
 
